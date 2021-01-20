@@ -13,12 +13,24 @@
   },
   "main": "lib/index.js",
   "dependencies": {
+    "actions-on-google": "^2.13.0",
+    "axios": "^0.21.1",
+    "dialogflow-fulfillment": "^0.6.1",
     "firebase-admin": "^9.2.0",
-    "firebase-functions": "^3.11.0"
+    "firebase-functions": "^3.11.0",
+    "form-data": "^3.0.0",
+    "qs": "^6.9.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "request-promise-native": "^1.0.9"
   },
   "devDependencies": {
-    "typescript": "^3.8.0",
-    "firebase-functions-test": "^0.2.0"
+    "@types/dialogflow-fulfillment": "^0.6.0",
+    "@types/request": "^2.48.5",
+    "@types/request-promise": "^4.1.47",
+    "@types/request-promise-native": "^1.0.17",
+    "firebase-functions-test": "^0.2.0",
+    "typescript": "^3.8.0"
   },
   "private": true
 }
